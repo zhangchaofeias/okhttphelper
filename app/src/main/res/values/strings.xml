@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">OkHttpUtils</string>
+    <string name="image_load_failed">图片下载失败，失败原因: </string>
+</resources>

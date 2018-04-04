@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yagesi.okhttputils.MainActivity">
+
+    <Button
+        android:id="@+id/async_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncDownload" />
+
+    <Button
+        android:id="@+id/sync_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="syncDownload"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
